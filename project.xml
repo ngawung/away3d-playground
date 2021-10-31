@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="test" package="myid.melody.test" version="1.0.0" company="melody.my.id" />
+	<app main="Main" file="test" path="bin" />
+	
+	<define name="openfl-share-context" value="" />
+	
+	<window antialiasing="4" />
+	
+	<window width="1024" height="700" if="desktop flash neko" />
+	<window background="0x000000" fps="60" />
+	<window hardware="true" allow-shaders="true" require-shaders="true" depth-buffer="false" stencil-buffer="false" />
+	<window resizable="true" borderless="false" vsync="false" />
+	<window orientation="landscape" />
+	
+	<source path="src" />
+	
+	<haxelib name="lime" />
+	<haxelib name="away3d" />
+	
+	<assets path="assets" exclude="*.svg" />
+	<icon path="assets/lime.svg" />
+	
+</project>
